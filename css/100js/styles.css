@@ -1,0 +1,145 @@
+/* fonts */
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/font/100js/Outfit/Outfit-Black.ttf');
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/font/100js/Outfit/Outfit-ExtraBold.ttf');
+    font-style: normal;
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/font/100js/Outfit/Outfit-Bold.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/font/100js/Outfit/Outfit-SemiBold.ttf');
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/font/100js/Outfit/Outfit-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/font/100js/Outfit/Outfit-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/font/100js/Outfit/Outfit-Light.ttf');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/font/100js/Outfit/Outfit-ExtraLight.ttf');
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/font/100js/Outfit/Outfit-Thin.ttf');
+    font-style: normal;
+    font-weight: 100;
+}
+
+/* global */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit';
+    font-weight: normal;
+    color: #111111;
+}
+html{
+    scroll-behavior: smooth;
+}
+header a, footer a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+section{
+    padding: 50px 100px;
+}
+
+/* titles */
+
+h2, h3, h4, h5, h6{
+    text-align: center;
+}
+h2{
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+main p{
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+/* header */
+
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo img{
+    height: 8vh;
+    padding: 0 20px;
+}
+.nav-logo h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.nav-list{
+    padding: 0 50px;
+}
+.nav-list ul a{
+    padding: 10px 50px;
+    font-size: 24px;
+    font-weight: 600;
+    transition: all 1s;
+}
+.nav-list ul a:hover{
+    background-color: brown;
+    color: whitesmoke;
+    transition: all 1s;
+}
+
+/* footer */
+
+footer{
+    background-color: #111111;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+footer p{
+    color: whitesmoke;
+    padding: 1px;
+}
