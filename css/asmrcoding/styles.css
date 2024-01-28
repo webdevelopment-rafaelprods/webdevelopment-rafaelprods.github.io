@@ -25,4 +25,9 @@ p{
 }
 #grid-projects a img{
     width: 100%;
+    transition: 0.5s ease;
+}
+#grid-projects a img:hover{
+    transform: scale(0.9);
+    transition: 0.5s ease;
 }
