@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar #1 | AsmrProg</title>
+    <link rel="shortcut icon" href="/assets/media/asmrcoding/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/asmrcoding/6.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navbar-overlay" onclick="toogleMenuOpen()"></div>
+        <button type="button" class="navbar-burger" onclick="toogleMenuOpen()">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+        <h2 class="navbar-title">AsmrProg</h2>
+        <nav class="navbar-menu">
+            <button type="button" class="active">YouTube</button>
+            <button type="button" class="active">Archive</button>
+            <button type="button">Projects</button>
+            <button type="button" id="minimise">MINIMISE</button>
+            <button type="button"><a style="text-decoration: none; color: #f5f5f5;" href="/en-us/asmrcoding/asmrcoding.html">GO BACK</a></button>
+        </nav>
+    </nav>
+
+    <script type="text/javascript">
+        const toggleMenuOpen = () => document.body.classList.toggle('open');
+    </script>
+
+    <script src="/js/asmrcoding/6.js"></script>
+
+</body>
+</html>
