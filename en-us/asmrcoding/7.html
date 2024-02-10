@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar #2 | AsmrProg</title>
+    <link rel="stylesheet" href="/css/asmrcoding/7.css">
+    <link rel="shortcut icon" href="/assets/media/asmrcoding/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+</head>
+<body>
+
+    <button onclick="toggleMenu()" class="burger material-symbols-outlined">menu</button>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <img src="/assets/media/asmrcoding/projects-media/7/logo-gmail.png" alt="Logo">
+            <span>Gmail</span>
+        </div>
+
+        <div class="search">
+            <span class="material-symbols-outlined">Search </span>
+            <input type="text" spellcheck="false" class="search" id="search" placeholder="Search in Gmail">
+        </div>
+
+        <nav>
+            <button class="material-symbols-outlined">help</button>
+            <button class="material-symbols-outlined">settings</button>
+            <button class="material-symbols-outlined">apps</button>
+            <a href="/en-us/asmrcoding/asmrcoding.html"><button class="material-symbols-outlined">keyboard_return</button></a>
+        </nav>
+
+    </nav>
+
+    <p style="position: absolute;top: 70%;left: 10%;" class="instructions">Use the F12 key to open the Development Tools and reduce the size of your screen to take advantage of the page's responsiveness!</p>
+
+    <script type="text/javascript">
+        const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
+
+    <script src="/js/asmrcoding/7.js"></script>
+    
+</body>
+</html>
